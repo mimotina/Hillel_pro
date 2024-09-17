@@ -4,7 +4,7 @@ console.log("result1", result1)
 var result2 = null + 3 // result 3 null=0
 console.log("result2",result2)
 
-var result3 = 5 && "qwerty"
+var result3 = 5 && "qwerty" // qwerty бо другу величину показує
 console.log("result3",result3)
 
 var result4= +'40' + +'2' + "hillel";//42hillel - конкатенація строк 
@@ -37,20 +37,20 @@ console.log("result12",result12)
 var result13= 3 ** (9 / 3); //27 - спочатку 9/3, потім 3в степені3
 console.log("result13",result13)
 
-var result14= !!'false' == !!'true' //true 
+var result14= !!'false' == !!'true' //true бо порівнюється дві строки які перевелись в true при двох !!
 console.log("result14",result14)
 
-var result15 = 0 || '0' && 1 //
+var result15 = 0 || '0' && 1 // 1 бо вертає останню величину
 console.log("result15",result15)
 
-var result16=(+null == false) < 1;
+var result16=(+null == false) < 1; //false бо 1 = 1
 console.log("result16",result16)
 
-var result17= false && true || true
+var result17= false && true || true // true бо && повертае false а || повернеtrue 
 console.log("result17",result17)
 
-var result18= false && (false || true);
+var result18= false && (false || true); //false бо спочатки виконуються дужки де результат false
 console.log("result18",result18)
 
-var result19= (+null == false) < 1 ** 5;
+var result19= (+null == false) < 1 ** 5; //false бо 1 = 1
 console.log("result19",result19)
