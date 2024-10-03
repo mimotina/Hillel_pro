@@ -14,7 +14,6 @@ function price(){
     sum += key1;
     }return sum
 }
-        
 
 function minPrice (){
     for (let key in services) {
