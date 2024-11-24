@@ -1,0 +1,1 @@
+Based on the reports, we can conclude that on average 50% of requests failed. Every 2 minutes, the response speed increases by 20 seconds, at the same time the memory load drops and the number of errors decreases significantly.
